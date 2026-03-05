@@ -1,4 +1,4 @@
-app = "fly-proxy-nrepcg"
+app = "fly-proxy-ib7syq"
 primary_region = "cdg"
 
 [build]
@@ -14,10 +14,6 @@ primary_region = "cdg"
   [[services.ports]]
     port = 80
     handlers = []
-
-  [[services.ports]]
-    port = 443
-    handlers = ["tls"]
 
 [[vm]]
   memory = "256mb"
